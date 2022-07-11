@@ -1,0 +1,140 @@
+body {
+    background-color: #eee;
+}
+
+.container {
+    width: 950px;
+    margin: 0 auto;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(141, 141, 141);
+}
+
+
+
+.main-left,.main-right {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.register-form,.switch-page {
+    background-color: #fff;
+    border:1px solid rgb(217, 217, 217);
+    padding: 40px;
+}
+
+.register-form form input {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(226, 226, 226);
+    margin-bottom: 6px;
+    border-radius: 2px;
+}
+
+.register-form form input:last-of-type {
+    background-color: rgb(18, 156, 248);
+    color: #fff;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+.register-form p:first-of-type {
+    font-size: 19px;
+    font-weight: bold;
+    color: rgb(172, 172, 172)
+}
+
+.register-form p a {
+    font-weight: bold;
+}
+
+.register-form p:last-of-type {
+    color: rgb(135, 135, 135);
+}
+
+.switch-page {
+    padding: 20px;
+}
+
+.main-right div {
+    margin-bottom: 10px;
+}
+
+.app-links img {
+    width: 170px;
+}
+
+.main-left {
+    width: 60%;
+    padding-top: 20px;
+}
+
+.main-right {
+    cursor:"pointer";
+    width: 39%;
+}
+
+.main-left img {
+    width: 100%;
+}
+
+/* Footer Style */
+
+#footer {
+    text-decoration: none;
+    margin-top: 500px;
+    background-color: rgba(231, 238, 238, 0.801);
+    padding: 20px;
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+
+
+}
+
+#footer div {
+    display: block
+}
+
+#footer a {
+    text-decoration: none;
+    color: rgb(112, 110, 110);
+    font-family: inherit;
+    background-color: rgba(231, 238, 238, 0.801);
+    font-size: 14px;
+    margin: 10px;
+    float: no
+}
+
+#first-row {
+
+    text-align: center;
+}
+
+
+
+#second-row {
+    text-align: center;
+    margin-top: 9px;
+}
+
+
+
+
+#third-row {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
